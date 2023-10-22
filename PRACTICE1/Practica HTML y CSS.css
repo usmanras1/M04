@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&family=Maven+Pro:wght@400;700&display=swap');
+
+html, body {
+    font-family: 'Kanit', sans-serif;
+    font-weight: bold;
+    min-height: 100%;
+    margin: 0;
+}
+
+#headerPrincipal {
+    position: sticky;
+    top: 0;
+    z-index:100;
+}
+
+h1 {
+    background-color: #0A91AB;
+    text-align: center;
+    color: #FFC045;
+    padding: 50px;
+    height: 100%;
+    margin: 0; 
+    margin: auto;
+}
+
+.link {
+    background-color: #FFC045;
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 25px;
+    border-bottom: 3px solid black;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 12px;
+}
+
+a:hover {
+    color: #0A91AB;
+}
+
+h3 {
+    color: #0a91AB;
+}
+
+h4 {
+    color: #FFC045;
+}
+
+h5 {
+    background-color: #8A8070;
+    height: 50px;
+    align-content: center;
+}
+
+.container1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.card {
+    flex: 0 0 calc(30% - 20px); /* Establece un ancho fijo para cada tarjeta */
+    border-radius: 2px;
+    border: 1px dotted #FFC045;
+    text-align: left;
+}
+
+.card img {
+    width: 100%; 
+}
+
+button {
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: #FFC045;  
+    justify-content: right;
+}
+
+.containerTrucos-Noticias {
+    display: flex;
+}
+
+.aside-trucos {
+    width: 170%;
+    background-color: #0a90ab7e;
+    border-radius: 2px;
+    border: 2px dotted #000000;
+    justify-content: space-around;
+    text-align: center;
+    
+}
+
+aside h4 {
+    text-align: center;
+}
+
+.container-noticias {
+    margin-left: 3%;
+    width: 100%;
+    text-align: center;
+}
+
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: auto;
+    justify-content: left;
+    gap: 20px;
+    width: 100%;
+}
+
+.card2 {
+    flex: 0 0 calc(50% - 20px); /* Establece un ancho fijo del 50% del contenedor - 20px de espacio entre tarjetas */
+    border-radius: 13px;
+    border: 1px solid #0A91AB;
+    text-align: left;
+    width: 100%;
+}
+
+.card2 img {
+    width: 100%; 
+}
+
+.date {
+    border-bottom: 5px solid #FFC045; /* Agrega una línea amarilla debajo de la fecha */
+}
+
+#ranking h3 {
+    text-align: center;
+}
+
+.rounded-image {
+    border-radius: 50%; /* Hace que la imagen sea circular */
+    border: 2px solid #000000; /* Establece un borde de 2 píxeles de ancho y color amarillo */
+    width: 100px; /* Establece el ancho de la imagen */
+    height: 100px; /* Establece la altura de la imagen */
+}
+
+.container3 {
+    display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+}
+
+.text1{
+    text-align: left;
+}
+
+.text2{
+    text-align: center;
+}
+
+.text3{
+    text-align: right;
+}

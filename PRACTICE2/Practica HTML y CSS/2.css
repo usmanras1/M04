@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&family=Maven+Pro:wght@400;700&display=swap');
+
+html, body {
+    font-family: 'Kanit', sans-serif;
+    font-weight: bold;
+    min-height: 100%;
+    margin: 0;
+}
+#headerPrincipal {
+    position: sticky;
+    top: 0;
+    z-index:100;
+}
+h1 {
+    background-color: #0A91AB;
+    text-align: center;
+    color: #FFC045;
+    padding: 50px;
+    height: 100%;
+    margin: 0; 
+    margin: auto;
+}
+
+.link {
+    background-color: #FFC045;
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 25px;
+    border-bottom: 3px solid black;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 12px;
+}
+
+a:hover {
+    color: #0A91AB;
+}
+
+h3 {
+    color: #0a91AB;
+}
+
+h4 {
+    color: #0a91AB;
+}
+
+.Title {
+    color: #FFC045;
+    text-align: center;
+
+}
+
+h5 {
+    background-color: #8A8070;
+    height: 50px;
+    align-content: center;
+}
+
+.container1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.card {
+    flex: 0 0 calc(30% - 20px); /* Establece un ancho fijo para cada tarjeta */
+    border-radius: 2px;
+    border: 1px dotted #FFC045;
+    text-align: left;
+}
+
+.card img {
+    width: 100%; 
+}
+
+.button {
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: #FFC045;  
+    justify-content: right;
+}
+
+.text1{
+    text-align: left;
+}
+
+.text2{
+    text-align: center;
+}
+
+.text3{
+    text-align: right;
+}
+
+/* Estilos para los botones de paginación */
+.pagination {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.pagination button {
+    background-color: #007bff;
+    color: #fff;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.pagination button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos adicionales para personalizar la apariencia de los botones y la paginación */
+
