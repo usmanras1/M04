@@ -1,0 +1,63 @@
+h1 {
+    color: blue;
+}
+
+.container-codigo h1 {
+    text-align: center;
+}
+
+.container1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 1000px;
+    margin: auto;
+    
+}
+
+.card {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(38, 165, 250);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+
+h3 {
+    color: rgb(38, 165, 250);
+}
+
+.container-comprobar {
+    border-radius: 10px;
+    border: 1px solid #0A91AB;
+    width: 30%;
+    justify-content: center;
+    margin: auto;
+}
+
+.container-result {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; /* Centra verticalmente */
+    align-items: center; /* Centra horizontalmente */
+    width: 1000px; /* Establece el mismo ancho que container1 */
+    margin-left: 25%;
+}
+
+.result-row {
+    display: flex;
+    margin-top: 10px;
+
+}
+
+.result-cell {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(38, 165, 250);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
