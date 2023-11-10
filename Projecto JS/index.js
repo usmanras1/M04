@@ -1,4 +1,9 @@
 document.addEventListener("DOMContentLoaded", function() {
+  
+  const secretNumber = generateSecretNumber();
+
+  console.log("Número secreto a adivinar:", secretNumber);
+
   const maxIteracion = 5;
   let currentIteracion = 0;
 
